@@ -25,11 +25,14 @@ repositories {
         url = "https://oss.sonatype.org/content/repositories/snapshots/"
     }
 
-
     // because of the GradleStart stuff
     maven {
         name = "mojang"
         url = "https://libraries.minecraft.net/"
+    }
+
+    maven {
+        url "https://jitpack.io"
     }
 }
 
